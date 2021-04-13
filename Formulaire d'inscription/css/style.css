@@ -1,0 +1,66 @@
+body {
+  background-color: #000;
+}
+#head h1 {
+  margin-left: 120px;
+  margin-top: -50px;
+  text-transform: uppercase;
+  color: #fff;
+}
+img {
+  width: 100px !important;
+  padding-top: 50px;
+}
+
+#main h1 {
+  color: #fff;
+  text-decoration: underline 1px;
+}
+#main {
+  border-radius: 5px;
+  box-shadow: 0 0 10px #fff;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#title {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.message {
+  display: none;
+  color: red;
+}
+label {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 10px auto 10px auto !important;
+}
+input::placeholder {
+  text-transform: uppercase;
+}
+
+label span {
+  color: red;
+}
+button {
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+option {
+  text-transform: uppercase;
+}
+#civilité,
+#pays {
+  text-transform: uppercase;
+}
+
+#tele {
+  height: 30px;
+}
+input {
+  border-radius: 10px;
+}
+select {
+  border-radius: 10px;
+}

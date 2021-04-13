@@ -1,0 +1,36 @@
+#calculator {
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  height: 350px;
+  width: 516px;
+  margin-top: 100px;
+  border: 3px #000 solid;
+}
+h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+#CE {
+  box-shadow: 0 0 5px #000;
+}
+.clc {
+  width: 44px;
+  box-shadow: 0 0 5px #000;
+}
+.clear {
+  width: 44px;
+  box-shadow: 0 0 5px #000;
+}
+#display {
+  width: 400px;
+}
+#equal {
+  width: 44px;
+  box-shadow: 0 0 5px #000;
+}
+#plus {
+  height: 85px;
+}
+#point {
+  margin-left: 45px !important;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="icon" href="image/cal-removebg-preview.png" />
+  </head>
+  <body class="container">
+    <div id="calculator" class="container">
+      <div class="container-fluid">
+        <h1>Ma calculatrice</h1>
+      </div>
+      <div class="container text-center">
+        <input id="display" type="text" value=" " placeholder="0">
+        <div class="row m-3">
+          <div class="col-8">
+            <div class="row">
+              <div class="col-4"> 
+                <input class="clc btn btn-light m-1" type="button" value="7">
+                <input class="clc btn btn-light m-1 " type="button" value="4">
+                <input class="clc btn btn-light m-1" type="button" value="1">
+              </div>
+              <div class="col-4"> 
+                <input class="clc btn btn-light m-1 " type="button" value="8">
+                <input class="clc btn btn-light m-1 " type="button" value="5">
+                <input class="clc btn btn-light m-1" type="button" value="2">
+              </div>
+              <div class="col-4"> 
+                <input class="clc btn btn-light m-1 " type="button" value="9">
+                <input class="clc btn btn-light m-1 " type="button" value="6">
+                <input class="clc btn btn-light m-1" type="button" value="3">
+              </div>
+            </div>
+            <div class="row m-1"> 
+            <input class="clc btn btn-light m-1 col-7 " type="button" value="0">
+            <input id="point" class="clc btn btn-light m-1 col-2" type="button" value=".">
+           
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="row">
+              <div class="col-6">
+                <input id="CE" class="btn btn-primary m-1" type="button" value="CE">
+                <input class="clc btn btn-light m-1 " type="button" value="/">
+                <input class="clc btn btn-light m-1" type="button" value="-">
+                <input id="equal" class="btn btn-warning m-1" type="button" value="=">
+                
+               
+              </div>
+              <div class="col-6"> 
+                <input class="clear btn btn-danger m-1" type="button" value="C">
+                <input class="clc btn btn-light m-1"  type="button" value="*">
+                <input id="plus"  class="clc btn btn-info m-1" type="button" value="+">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
